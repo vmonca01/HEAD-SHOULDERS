@@ -43,6 +43,9 @@ tmp/
 temp/
 *.tmp
 
+# Generated plots and images
+pattern_plot_*.png
+
 # OS
 .DS_Store
 Thumbs.db
