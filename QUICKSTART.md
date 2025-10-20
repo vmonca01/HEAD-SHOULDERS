@@ -5,9 +5,13 @@
 ### 1. Instalación (5 minutos)
 
 ```bash
-# Clonar el repositorio
+# Clonar el repositorio (ajusta la URL a tu repositorio)
 git clone https://github.com/vmonca01/HEAD-SHOULDERS.git
 cd HEAD-SHOULDERS
+
+# Crear entorno virtual (recomendado)
+python -m venv venv
+source venv/bin/activate  # En Windows: venv\Scripts\activate
 
 # Instalar dependencias
 pip install -r requirements.txt
